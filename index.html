@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting to ACRA Insight...</title>
+  <script>
+    setTimeout(() => {
+      // Wait a few seconds to see if Super renders. If not, fallback.
+      if (!document.body || document.body.innerHTML.length < 100) {
+        window.location.href = "https://www.notion.so/your-notion-page-id";
+      }
+    }, 3000);
+  </script>
+</head>
+<body>
+  <p>Loading ACRA Insight...</p>
+</body>
+</html>
